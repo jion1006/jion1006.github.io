@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>오지훈 | 게임 클라이언트 개발자</title>
+  <meta
+    name="description"
+    content="C++과 C#을 사용하는 게임 클라이언트 개발자 오지훈의 이력서 및 포트폴리오입니다."
+  />
+
+  <!-- 공유 링크 미리보기 -->
+  <meta property="og:title" content="오지훈 | 게임 클라이언트 개발자" />
+  <meta
+    property="og:description"
+    content="게임 시스템 구현과 문제 해결 과정을 담은 포트폴리오입니다."
+  />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="./styles.css" />
+  <script src="./script.js" defer></script>
+</head>
+
+<body>
+  <!-- 스크롤 진행 표시 -->
+  <div class="scroll-progress" aria-hidden="true">
+    <div class="scroll-progress__bar" id="scrollProgress"></div>
+  </div>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="logo" href="#top" aria-label="첫 화면으로 이동">OJH</a>
+
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-label="메뉴 열기"
+        aria-expanded="false"
+        aria-controls="mainNav"
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav" id="mainNav" aria-label="주요 메뉴">
+        <a href="#about">소개</a>
+        <a href="#projects">프로젝트</a>
+        <a href="#experience">경험</a>
+        <a href="#skills">기술</a>
+        <a href="#contact">연락처</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">GAME CLIENT DEVELOPER</p>
+          <h1>
+            복잡한 기능을<br />
+            <span>명확한 구조</span>로 구현합니다.
+          </h1>
+          <p class="hero-description">
+            C++과 C#을 중심으로 게임의 핵심 로직을 구현하고,
+            문제의 원인을 끝까지 추적하는 클라이언트 개발자 오지훈입니다.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button--primary" href="#projects">프로젝트 보기</a>
+
+            <!-- assets/resume.pdf 파일을 추가한 뒤 주석을 해제하세요.
+            <a class="button button--secondary" href="./assets/resume.pdf" target="_blank">
+              이력서 PDF
+            </a>
+            -->
+
+            <a
+              class="button button--secondary"
+              href="https://github.com/YOUR_GITHUB_ID"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
+          </div>
+        </div>
+
+        <aside class="hero-summary reveal" aria-label="핵심 정보">
+          <div class="summary-card">
+            <p class="summary-label">Focus</p>
+            <strong>Game Client</strong>
+            <span>Gameplay · System · UI</span>
+          </div>
+          <div class="summary-card">
+            <p class="summary-label">Languages</p>
+            <strong>C++ · C#</strong>
+            <span>자료구조와 알고리즘 학습 중</span>
+          </div>
+          <div class="summary-card">
+            <p class="summary-label">Interest</p>
+            <strong>핵심 로직 구현</strong>
+            <span>전투 · 상태 · 상호작용 시스템</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section section--muted" id="about">
+      <div class="container two-column">
+        <div class="section-heading reveal">
+          <p class="eyebrow">ABOUT</p>
+          <h2>짧고 분명하게<br />나를 설명합니다.</h2>
+        </div>
+
+        <div class="about-content reveal">
+          <p class="lead">
+            기능을 단순히 동작시키는 것보다,
+            왜 그렇게 설계했는지 설명할 수 있는 개발을 지향합니다.
+          </p>
+          <p>
+            게임 클라이언트 개발을 공부하며 C++, 자료구조, 알고리즘과
+            게임 시스템 구현 역량을 쌓고 있습니다. 구현 과정에서 발생한
+            문제를 재현하고 원인을 분리한 뒤, 더 단순하고 유지하기 쉬운
+            구조로 개선하는 과정을 중요하게 생각합니다.
+          </p>
+
+          <dl class="info-list">
+            <div>
+              <dt>이름</dt>
+              <dd>오지훈</dd>
+            </div>
+            <div>
+              <dt>지원 분야</dt>
+              <dd>게임 클라이언트 개발</dd>
+            </div>
+            <div>
+              <dt>이메일</dt>
+              <dd>
+                <a href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com</a>
+              </dd>
+            </div>
+            <div>
+              <dt>GitHub</dt>
+              <dd>
+                <a
+                  href="https://github.com/YOUR_GITHUB_ID"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  github.com/YOUR_GITHUB_ID
+                </a>
+              </dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading section-heading--row reveal">
+          <div>
+            <p class="eyebrow">PROJECTS</p>
+            <h2>대표 프로젝트</h2>
+          </div>
+          <p>
+            프로젝트 개수보다 맡은 기능, 문제 해결 과정과 결과가
+            보이도록 정리합니다.
+          </p>
+        </div>
+
+        <div class="project-list">
+          <!-- 프로젝트 1 -->
+          <article class="project-card reveal">
+            <div class="project-visual project-visual--one">
+              <!-- 실제 이미지 사용 시 아래 주석을 해제하세요.
+              <img src="./assets/images/project-01.webp" alt="프로젝트 플레이 화면" />
+              -->
+              <span>PROJECT IMAGE 01</span>
+            </div>
+
+            <div class="project-content">
+              <div class="project-meta">
+                <span>개인 프로젝트</span>
+                <span>2026.00 — 2026.00</span>
+              </div>
+              <h3>프로젝트 이름</h3>
+              <p class="project-summary">
+                한 문장으로 장르, 핵심 플레이와 프로젝트 목적을 설명하세요.
+                예: 전투 상태 머신과 객체 풀링을 직접 구현한 2D 액션 게임입니다.
+              </p>
+
+              <div class="project-detail">
+                <h4>담당 및 구현</h4>
+                <ul>
+                  <li>플레이어 이동·공격·피격 상태를 상태 패턴으로 분리</li>
+                  <li>반복 생성되는 객체에 오브젝트 풀링을 적용</li>
+                  <li>데이터와 로직을 분리해 밸런스 수정 비용 감소</li>
+                </ul>
+              </div>
+
+              <div class="project-detail">
+                <h4>문제 해결</h4>
+                <p>
+                  어떤 문제가 있었고, 원인을 어떻게 확인했으며,
+                  어떤 선택을 통해 개선했는지 2~3문장으로 작성하세요.
+                </p>
+              </div>
+
+              <div class="tag-list" aria-label="사용 기술">
+                <span>C++</span>
+                <span>DirectX 11</span>
+                <span>ImGui</span>
+              </div>
+
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noreferrer">GitHub ↗</a>
+                <a href="#" target="_blank" rel="noreferrer">영상 ↗</a>
+                <a href="#" target="_blank" rel="noreferrer">기술 문서 ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 프로젝트 2 -->
+          <article class="project-card reveal">
+            <div class="project-visual project-visual--two">
+              <span>PROJECT IMAGE 02</span>
+            </div>
+
+            <div class="project-content">
+              <div class="project-meta">
+                <span>팀 프로젝트 · 4인</span>
+                <span>2025.00 — 2025.00</span>
+              </div>
+              <h3>프로젝트 이름</h3>
+              <p class="project-summary">
+                프로젝트의 장르와 본인이 만든 핵심 시스템을 한 문장으로
+                설명하세요.
+              </p>
+
+              <div class="project-detail">
+                <h4>담당 및 구현</h4>
+                <ul>
+                  <li>맵 오브젝트 상호작용 시스템 구현</li>
+                  <li>UI 상태와 게임 데이터를 이벤트 방식으로 연결</li>
+                  <li>팀 공용 코딩 규칙과 Git 브랜치 전략 정리</li>
+                </ul>
+              </div>
+
+              <div class="project-detail">
+                <h4>결과</h4>
+                <p>
+                  완성도, 성능, 협업 또는 발표 결과처럼 확인 가능한 결과를
+                  적어주세요. 수치가 있다면 함께 제시하는 편이 좋습니다.
+                </p>
+              </div>
+
+              <div class="tag-list" aria-label="사용 기술">
+                <span>C#</span>
+                <span>Unity</span>
+                <span>Git</span>
+              </div>
+
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noreferrer">GitHub ↗</a>
+                <a href="#" target="_blank" rel="noreferrer">영상 ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 프로젝트 추가 시 위 article 전체를 복사하세요. -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section section--muted" id="experience">
+      <div class="container two-column">
+        <div class="section-heading reveal">
+          <p class="eyebrow">EXPERIENCE</p>
+          <h2>학력과 경험</h2>
+        </div>
+
+        <div class="timeline reveal">
+          <article class="timeline-item">
+            <div class="timeline-date">2024 — 현재</div>
+            <div>
+              <h3>학교명 · 전공</h3>
+              <p>게임 클라이언트 개발에 필요한 C++, 알고리즘과 전공 지식을 학습했습니다.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-date">2025.00 — 2025.00</div>
+            <div>
+              <h3>교육 또는 활동명</h3>
+              <p>
+                수행한 역할과 얻은 역량을 한두 문장으로 적습니다.
+                단순 수강 목록보다 실제 결과를 중심으로 작성하세요.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-date">수상 · 자격</div>
+            <div>
+              <h3>항목명</h3>
+              <p>기관명 · 취득 또는 수상 연도</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">SKILLS</p>
+          <h2>기술 스택</h2>
+        </div>
+
+        <div class="skill-grid">
+          <article class="skill-card reveal">
+            <h3>Language</h3>
+            <ul>
+              <li><strong>C++</strong><span>STL, 객체지향, 자료구조</span></li>
+              <li><strong>C#</strong><span>Unity 스크립팅, 이벤트 구조</span></li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3>Engine & Graphics</h3>
+            <ul>
+              <li><strong>Unity</strong><span>게임플레이 및 UI 구현</span></li>
+              <li><strong>DirectX 11</strong><span>학습 또는 사용 범위 기재</span></li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3>Tools</h3>
+            <ul>
+              <li><strong>Git · GitHub</strong><span>버전 관리와 협업</span></li>
+              <li><strong>Visual Studio</strong><span>디버깅과 프로파일링</span></li>
+            </ul>
+          </article>
+        </div>
+
+        <p class="skill-note reveal">
+          기술 숙련도를 별점이나 퍼센트로 표현하기보다,
+          실제로 어디까지 사용했는지를 짧게 적는 것이 좋습니다.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+      <div class="container contact-inner reveal">
+        <p class="eyebrow">CONTACT</p>
+        <h2>함께 만들 기회를 기다리고 있습니다.</h2>
+        <p>
+          프로젝트와 기술에 관한 이야기는 아래 이메일 또는 GitHub로 연락해 주세요.
+        </p>
+
+        <div class="contact-links">
+          <a href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com</a>
+          <a
+            href="https://github.com/YOUR_GITHUB_ID"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub ↗
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="currentYear"></span> 오지훈</p>
+      <a href="#top">맨 위로 ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
