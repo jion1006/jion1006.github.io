@@ -487,9 +487,10 @@ a {
 
 .skill-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr;
   gap: 16px;
   margin-top: 48px;
+  width: 100%;
 }
 
 .skill-card {
@@ -527,6 +528,17 @@ a {
   margin: 24px 0 0;
   color: var(--muted);
   font-size: 0.9rem;
+}
+.skill-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.skill-items strong {
+  font-size: 1.1rem;
 }
 
 .contact {
